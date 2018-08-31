@@ -13,26 +13,28 @@ var fs = require('fs');
 var https = require('https');
 var api = require('./api.js');
 var config = require('./config');
+var cors=require('cors');
 // config passport and connect to DB
 require('./config/passport')(passport);
 
 // set up express
 app.use(morgan('dev'));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'dist')));
 app.set('view engine', 'ejs');
-app.all('/*', function(req, res, next) {
-	// CORS headers
-	res.header("Access-Control-Allow-Origin", "*"); // restrict it to the required domain
-	res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-	// Set custom headers for CORS
-	res.header('Access-Control-Allow-Headers', 'Content-type,Accept,X-Access-Token,X-Key');
-
-	next();
-  });
+// app.all('/*', function(req, res, next) {
+// 	// CORS headers
+// 	res.header("Access-Control-Allow-Origin", "*"); // restrict it to the required domain
+// 	res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+// 	// Set custom headers for CORS
+// 	res.header('Access-Control-Allow-Headers', 'Content-type,Accept,X-Access-Token,X-Key');
+// 	res.setHeader("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers");
+// 	next();
+//   });
   
 // config passport
 app.use(session({
