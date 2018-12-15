@@ -6,11 +6,11 @@ config.port = 3000;
 config.auth = true;
 
 //Database
-config.database = 'csrtrack';
-config.username = 'csrtrack';
-config.password = 'csr2018';
+config.database = 'xxx';
+config.username = 'xxxx';
+config.password = 'xxxx';
 config.table_prefix = '';
-config.server='csrtrack.openclouds.in';
+config.server='cxxxxxxxn';
 //Pagination
 config.paginate = true;
 config.page_limit = 10;
