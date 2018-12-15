@@ -10,7 +10,7 @@ var port     = process.env.PORT || 5555;
 var passport = require('passport');
 var flash    = require('connect-flash');
 var fs = require('fs');
-var https = require('https');
+var https = require('http');
 var api = require('./api.js');
 var config = require('./config');
 var cors=require('cors');
@@ -58,6 +58,6 @@ const SERVER_SECRET = 'ohgodpleasenobug';
 require('./app/routes.js')(app, passport, SERVER_SECRET); // load our routes and pass in our app and fully configured passport
 app.use('/api', api);
 // Create server
-https.createServer(options, app).listen(port, function(){
+https.createServer(app).listen(port, function(){
 	console.log('Server listening on port ' + port);
 });

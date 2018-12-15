@@ -1,8 +1,15 @@
+var path=require('path');
 module.exports = function(app, passport, SERVER_SECRET) {
 
   // default message
   app.get('/', function (req, res) {
-    res.send('<html><body><p>Welcome to the database</p></body></html>');
+   // res.send('<html><body><p>Welcome to the database</p></body></html>');
+    
+     // res.sendFile(path.join(__dirname, '../dist/LMSPRO/index.html'));
+     res.send({
+       'got_it':'working'
+     })
+    
   });
 
 // =========== authenticate login info and generate access token ===============
@@ -11,7 +18,7 @@ module.exports = function(app, passport, SERVER_SECRET) {
   passport.authenticate('local-login', function(err, user, info) {
       if (err) { return next(err); }
       // stop if it fails
-      if (!user) { return res.json({ message: 'Invalid Username of Password' }); }
+      if (!user) { return res.status(401).json({ message: 'Invalid Username of Password' }); }
 
       req.logIn(user, function(err) {
         // return if does not match
@@ -36,7 +43,7 @@ module.exports = function(app, passport, SERVER_SECRET) {
         req.token = jwt.sign({
           id: req.user.id,
         }, SERVER_SECRET, {
-          expiresIn: 120
+          expiresIn: 1200
         });
 
         // lastly respond with json
@@ -59,11 +66,11 @@ module.exports = function(app, passport, SERVER_SECRET) {
     }));
   // return messages for signup users
   app.get('/signup/successjson', function(req, res) {
-    res.json({ message: 'Successfully created user' });
+    res.status(200).json({ message: 'Successfully created user' });
   });
 
   app.get('/signup/failurejson', function(req, res) {
-    res.json({ message: 'This user already exists' });
+    res.status(401).json({ message: 'This user already exists' });
   });
 
 // =============================================================================

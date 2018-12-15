@@ -1,0 +1,2039 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+   @media only screen and (min-width: 980px) and (max-width: 1279px) {
+    .dashboardforsis2.downdashbaord select {
+        width: 120px;
+    }
+    .input-group-addon {
+        right: 2%;
+    }
+    .dashboardforsis2.downdashbaord label {
+        width: auto;
+        margin-right: 10px;
+        line-height: 32px;
+        font-size: 12px !important;
+    }
+    .dashboardforsis2.downdashbaord .btn.btn-primary {
+        width: 102px;
+        font-size: 13px;
+        padding: 7px 15px;
+        margin-left: 7px;
+    }
+    .subsc img {
+        max-height: 376px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .prsnl_forem.dashboardforsis .cousrescdtial span.incomplete {
+        font-size: 12px;
+    }
+    .prsnl_forem.dashboardforsis .cousrescdtial span.complete {
+        font-size: 12px;
+        float: left;
+    }
+    .rpdctprce h1 {
+        width: 150px;
+        font-size: 26px;
+    }
+    .rpdctprce p {
+        padding-right: 150px;
+    }
+    .rpdctprce h5 {
+        padding-right: 155px;
+    }
+    .prsnl_forem.product_form_form h1 {
+        font-size: 24px;
+    }
+    .transcript_form_useradmin .checkforassignmnet input[type="checkbox"] {
+        width: auto;
+        margin: 0;
+        margin-right: 10px;
+    }
+   
+    .profile_page_enroll img {
+        margin-bottom: 10px;
+    }
+    .enrollment_steps ul li {
+        margin-right: 3px;
+    }
+    .prsnl_forem.prsnl_forem_attendance .table-responsive table tbody tr td select {
+        width: 250px;
+    }
+    .transcript_form input {
+        width: 60%;
+    }
+    .dualtable.dualtable_3 .table-responsive table tbody tr td span {
+        font-size: 15px;
+    }
+    .enrollmnt_top h2 {
+        font-size: 22px;
+    }
+	.attendncesearch input[type="date"] {
+        width: 155px;
+    }
+    .attendncesearch select {
+        width: 155px;
+    }
+    .medicalprofile h3 {
+        right: 0;
+        top: 30px;
+        margin: 0;
+        color: #e30c2b;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    .left-menu ul {
+        width: 100%;
+        float: left;
+        padding: 0;
+        padding-left: 45px;
+        margin: 0;
+    }
+    .left-menu ul li a {
+        padding: 13px 8px;
+        font-size: 14px;
+    }
+    .medicalprofile h4 {
+        width: 79%;
+    }
+    .medicalprofile h5 {
+        width: 79%;
+        float: left;
+        color: #115eae;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .template_inner .template_bheadrr label {
+        float: left;
+        width: 80px;
+        line-height: 35px;
+        color: #fff;
+        font-weight: 500;
+    }
+    .template_inner .template_bheadrr select {
+        width: 20%;
+    }
+    label.containersss {
+        margin-right: 7px;
+        font-size: 13px;
+        width: 14%;
+    }
+
+
+    /* landing */
+    .signuphome .textbox.textbox_2 {
+        width: 100%;
+    }
+    .textbox.textbox_2.textbox_3 {
+        width: 45%;
+    }
+    .signuphome .textbox.textbox_2 input {
+        width: 65%;
+        margin-right: 0;
+    }
+    .textbox.textbox_2.textbox_3 {
+        width: 100% !important;
+        float: left;
+    }
+    .signuphome .textbox.textbox_2.textbox_3 label {
+        width: 140px;
+    }
+    .signuphome .textbox.textbox_2.textbox_3 input {
+        margin-right: 0;
+        float: left;
+        width: 65%;
+    }
+    .informationsection h3 {
+        margin-top: 12px;
+    }
+    .informationsection p {
+        font-size: 13px;
+    }
+    .calculate h1 span {
+        font-size: 33px;
+    }
+    .calculate h1
+    {
+        font-size: 30px;
+    }
+    .inputforsubs {
+        width: 100%;
+    }
+    .inputforsubs input {
+        width: 65%;
+    }
+    .subscibe_innr {
+        width: 100%;
+        float: left;
+        background: url(../images/newsletterbanner_bg.jpg) no-repeat;
+        background-size: cover;
+        padding: 50px 30px;
+        height: 376px;
+    }
+    .subscibe_innr h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .commentsection_inner iframe {
+        width: 100%;
+        height: 250px;
+    }
+    .cheathead a {
+        padding: 0 13px;
+        font-size: 12px;
+    }
+    .chat_inbox ul li a p {
+        width: 115px;
+    }
+    .chat_inbox ul li a h4 {
+        width: 115px;
+    }
+    .replysection a {
+        float: left;
+        color: #666;
+        padding: 0 5px;
+        font-size: 11px;
+    }
+    .inboxcmessage_top p {
+        float: left;
+        font-weight: 300;
+        color: #000;
+        margin-top: 0;
+        display: block;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+    .inputfield {
+        width: 80%;
+        float: left;
+        position: relative;
+        border: 1px solid #999;
+    }
+    /* .teachercourcemodal .innermodal.modal-lg
+    {
+        width: 850px;
+    } */
+    .view_picture h4 {
+        float: left;
+        color: #fff;
+        font-size: 16px;
+    }
+    .grngcolor
+    {
+        width: 100%;
+        float: right;
+    }
+    .stepsmodal li.modalstep_1 {
+        width: 44%;
+    }
+    .full_list p {
+        font-size: 10px;
+    }
+    .listforfund h4 {
+        width: 100%;
+        float: left;
+        color: #115eae;
+        margin: 0;
+        margin: 10px 0;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .tabforlearn_content .tab-content p {
+        width: 75%;
+    }
+
+
+
+/* ======================= 14-06-2018 =========================== */
+
+.signuphome.signuphome_billing_three {
+    width: 94%!important;
+    display: table;
+    margin: 0 auto;
+    float: none;
+    padding: 30px!important;
+}
+.input-group-addon {
+    right: 3% !important;
+
+    font-size: 10px !important;
+    
+    width: 100px !important;
+}
+.textbox.input-group input {
+	padding-right: 105px;
+}
+
+    }
+       
+    @media only screen and (min-width: 768px) and (max-width: 979px) {
+        .input-group-addon {
+            right: 3%;
+        }
+        .subsc img
+        {
+            max-height: 282px;
+        }
+        .rpdctprce h1 {
+            width: 135px;
+            font-size: 23px;
+        }
+        .rpdctprce h1 small 
+        {
+            font-size: 15px;
+        }
+        .rpdctprce p {
+            padding-right: 135px;
+        }
+        .rpdctprce p {
+            padding-right: 135px;
+        }
+        .prsnl_forem.product_form_form h1 {
+            font-size: 24px;
+        }
+        .transcript_form_useradmin .checkforassignmnet input[type="checkbox"] {
+            width: auto;
+            margin: 0;
+            margin-right: 10px;
+        }
+        .transcript_form_useradmin .checkforassignmnet {
+            width: auto;
+            margin-left: 0;
+        }
+        .transcript_form_useradmin .checkforassignmnet label {
+            margin-right: 10px;
+            width: auto;
+            line-height: 34px;
+        }
+        .profile_page_enroll img {
+            margin-bottom: 10px;
+        }
+        .left-menu ul li a img {
+            margin-right: 10px;
+        }
+        .enrollmnt {
+            padding-left: 200px;
+        }
+        .left-menu ul li a {
+            font-size: 13px;
+        }
+        .enrollmnt_top input {
+            width: 240px;
+        }
+        .prsnl_forem input {
+            font-size: 11px;
+        }
+        .prsnl_forem.prsnl_forem_attendance .table-responsive table tbody tr td select {
+            border: 1px solid #999;
+            border-radius: 5px;
+            padding: 8px 10px;
+            margin: 0;
+            width: 100px;
+            margin-top: 10px;
+            float: right;
+        }
+        .prsnl_forem.prsnl_forem_attendance .table-responsive table tbody tr td:nth-child(1)
+        {
+            width: 200px;
+        }
+        .sidebar {
+            width: 200px;
+        }
+        .logo img {
+            width: 155px;
+            display: block;
+            margin: 0 auto;
+        }
+        .leftnavbar {
+            width: 30px;
+            position: fixed;
+            left: 0;
+            background: #0e559e;
+            top: 61px;
+            height: 100%;
+        }
+        .leftnavbar a.srchicon img {
+            width: 15px;
+            height: 15px;
+            margin-top: 10px;
+        }
+        .bottomnavbar {
+            position: fixed;
+            bottom: 55px;
+            left: 0;
+            width: 30px;
+        }
+        .header_logo img {
+            width: 199px;
+        }
+        .header_logo {
+            position: fixed;
+            width: 100%;
+            height: 47px;
+            bottom: 0;
+            left: 0;
+        }
+        .left-menu ul {
+            width: 100%;
+            float: left;
+            padding: 0;
+            padding-left: 40px;
+            margin: 0;
+        }
+        .left-menu ul li a {
+            width: 100%;
+            float: left;
+            text-decoration: none;
+            color: #fff;
+            padding: 13px 6px;
+            font-size: 13px;
+            line-height: 15px;
+            transition: .3s ease;
+        }
+        .attendncesearch label {
+            font-size: 13px;
+        }
+        .attendncesearch input[type="date"] {
+            width: 120px;
+            float: left;
+            color: #000;
+            font-weight: 500;
+            border: 1px solid #333;
+            background: #fff;
+            padding: 10px 4px;
+            margin-bottom: 20px;
+            background: url(../images/calender_grey.png) no-repeat right center;
+            background-position: right 5px bottom 12px;
+            background-color: #fff !important;
+            background-size: 13px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .attendncesearch select {
+            width: 130px;
+            float: left;
+            color: #000;
+            font-weight: 500;
+            border: 1px solid #333;
+            background: #fff;
+            padding: 10px 5px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding-right: 30px;
+            background: url(../images/drop_dwn_arrow.png) no-repeat right center;
+            background-position: right 5px bottom 16px;
+            background-size: 10px;
+            background-color: #fff !important;
+            border-radius: 5px;
+        }
+ 
+        .attendncesearch .btn.btn-primary {
+            background: #115eae;
+            margin-left: 10px;
+            padding: 12px 21px;
+            border: 0;
+            font-size: 14px;
+            transition: .2s ease;
+        }
+        .transcript_form label, .transcript_form input
+        {
+            width: 100%
+        }
+        .transcript_form label {
+            line-height: 22px;
+            margin-bottom: 2px;
+        }
+        .template_inner .template_bheadrr label {
+            float: left;
+            width: 100%;
+            line-height: 35px;
+            color: #fff;
+            font-weight: 500;
+        }
+        .template_inner .template_bheadrr select {
+            width: 100%;
+        }
+        label.containersss {
+            margin-right: 7px;
+            font-size: 13px;
+            width: 18%;
+        }
+        .innermodal {
+            width: 600px;
+        }
+        .modal_form label.btn.btn-primary {
+            color: #fff;
+            width: 70px;
+            float: right;
+            padding: 11px 0;
+            border: 0;
+            background: #0e559e;
+            font-size: 12px;
+        }
+        .modal_form_fundmodal h3 {
+            float: left;
+            color: #115eae;
+            width: 68%;
+            font-size: 30px;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .modal_form_fundmodal h5 {
+            float: left;
+            color: #000;
+            width: 34%;
+            font-size: 12px;
+            margin: 0;
+            margin-bottom: 10px;
+            padding-right: 10px;
+        }
+        .modal_form.modal_form_fundmodal .medicalprofile h4 {
+            width: 76%;
+        }
+        .modal_form.modal_form_fundmodal .medicalprofile h5 {
+            width: 76%;
+        }
+        .modal_form.modal_form_fundmodal .personal_medicasl p {
+            font-size: 12px;
+        }
+        .nav.navbar-nav.navbar-right li {
+            margin-right: 10px;
+        }
+        .nav.navbar-nav.navbar-right .btn.btn-primary {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        label.pollsurvey {
+            width: 100%;
+        }
+        .navbar_landing .navbar.navbar-inverse input {
+            float: right;
+            width: 188px;
+            margin-right: 5px;
+        }
+        .navbar_landing .navbar.navbar-inverse .navbar-brand img {
+            width: 110px;
+        }
+        .left-banner h1 {
+            font-size: 26px;
+        }
+        .left-banner h3 {
+            font-size: 12px;
+        }
+        .signuphome h4 {
+            font-size: 14px;
+        }
+        .signuphome .textbox label ,.signuphome .textbox.textbox_2 label , .signuphome .textbox.textbox_2.textbox_3 label{
+            width: 120px;
+            font-size: 12px;
+            padding-left: 0;
+        }
+        .signuphome .textbox input ,.signuphome .textbox.textbox_2 input , .signuphome .textbox.textbox_2.textbox_3 input {
+            float: left;
+            width: 60%;
+        }
+        .signuphome {
+            padding: 20px 15px;
+        }
+        .signuphome .textbox.textbox_2 {
+            width: 100%;
+        }
+        .signuphome .textbox.textbox_2 {
+            width: 100%;
+        }
+        .textbox.textbox_2.textbox_3 {
+            width: 45%;
+        }
+        .signuphome .textbox.textbox_2 input {
+            width: 60%;
+            margin-right: 0;
+        }
+        .textbox.textbox_2.textbox_3 {
+            width: 100% !important;
+            float: left;
+        }
+        .signuphome .textbox.textbox_2.textbox_3 label {
+            width: 120px;
+        }
+        .signuphome .textbox.textbox_2.textbox_3 input {
+            margin-right: 0;
+            float: left;
+            width: 60%;
+        }
+
+        .informationsection h3 {
+            margin-top: 0px;
+        }
+        .informationsection p {
+            float: left;
+            width: 100%;
+            float: left;
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 11px;
+        }
+        .informationsection .btn.btn-default {
+            padding: 5px 20px;
+            background: #fff;
+            border: 1px solid #000;
+            color: #000;
+            float: left;
+            font-size: 12px;
+            transition: .3s ease;
+        }
+        .signuphome .textbox p {
+            width: 92%;
+            margin-top: 16px;
+        }
+        .pricebox {
+            width: 100%;
+            float: left;
+            padding: 30px 5px;
+            border-radius: 5px;
+        }
+        .pricebox h4 {
+            font-size: 18px;
+        }
+        .pricebox span {
+            margin-bottom: 20px;
+        }
+        .pricebox h1 {
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-size: 30px;
+            margin: 25px 0;
+            color: #000;
+        }
+        .pricebox p {
+            font-size: 13px;
+        }
+        .pricebox button.btn.btn.btn-primary {
+            width: 100%;
+            float: left;
+            padding: 9px;
+            background: #115eae;
+            border: 0;
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        .pricebox h5 {
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        .pricecalcutn_right h1 {
+            font-size: 30px;
+        }
+        .pricecalcutn_right h2 {
+            font-size: 24px;
+        }
+        .inputforsubs {
+            width: 100%;
+        }
+        .inputforsubs .btn.btn-default {
+            width: 94px;
+        }
+        .footermenu h4 {
+            font-size: 18px;
+        }
+        .footermenu li a {
+            font-size: 11px;
+        }
+        .footer-social p {
+            font-size: 12px;
+        }
+        .footer-social a {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            margin-right: 8px;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+        }
+        .subscibe_innr h1 {
+            width: 100%;
+            float: left;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 34px;
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        .subscibe_innr {
+            width: 100%;
+            float: left;
+            background: url(../images/newsletterbanner_bg.jpg) no-repeat;
+            background-size: cover;
+            padding: 50px 30px;
+            height: 282px;
+        }
+        .product_tabs ul.nav.nav-pills li a h3 {
+            font-size: 20px;
+        }
+        .schoolinfrmtion_inner h1 {
+            font-size: 30px;
+        }
+        .enrollmnt_top p {
+            margin-right: 0px;
+            padding: 0px 0;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: right;
+        }
+        .stepsforcourses a {
+            margin-right: 18px;
+            font-size: 13px;
+        }
+        .commentsection_inner h4 {
+            font-size: 16px;
+        }
+        .commentsection_inner p {
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        .commentsection_inner iframe {
+            width: 100%;
+            height: 200px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .cheathead a {
+            padding: 0 7px;
+            font-size: 12px;
+        }
+        .chat_inbox ul li a p {
+            width: 115px;
+        }
+        .chat_inbox ul li a h4 {
+            width: 115px;
+        }
+        .replysection a {
+            float: left;
+            color: #666;
+            padding: 0 5px;
+            font-size: 11px;
+        }
+        .inboxcmessage_top p {
+            float: left;
+            font-weight: 300;
+            color: #000;
+            margin-top: 0;
+            display: block;
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0;
+            font-size: 10px;
+        }
+        .inputfield {
+            width: 80%;
+            float: left;
+            position: relative;
+            border: 1px solid #999;
+        }
+        .inboxcmessage_top h4 {
+            width: 100%;
+        }
+        .replysection {
+            float: right;
+            width: 100%;
+            text-align: center;
+        }
+        .replysection a {
+            float: none;
+            color: #666;
+            padding: 0 5px;
+            font-size: 11px;
+            line-height: 20px;
+        }
+        .inputfield {
+            width: 72%;
+        }
+        .cheathead input {
+            width: 180px;
+        }
+        .cheathead .btn.btn-primary {
+            background: #16adde;
+            color: #fff;
+            line-height: 40px;
+            padding: 0 11px;
+            border: 0;
+            margin-right: 5px;
+            float: right;
+            margin-top: 5px;
+            font-size: 11px;
+        }
+        /* .teachercourcemodal .innermodal.modal-lg
+        {
+            width: 760px;
+        } */
+        .view_picture h4 {
+            float: left;
+            color: #fff;
+            font-size: 16px;
+        }
+        .grngcolor
+    {
+        width: 100%;
+        float: right;
+    }
+    .stepsmodal li.modalstep_1 {
+        width: 50%;
+    }
+    .prsnl_forem.userduperadmin .btn.btn-default {
+        margin-left: 0;
+    }
+    .prsnl_forem.dashboardforsis2 img {
+        width: 150px;
+    }
+    .prsnl_forem.dashboardforsis {
+        padding-right: 0;
+        border-right: 0;
+    }
+    .prsnl_forem.downdashbaord {
+        padding-right: 0;
+        border-right: 0;
+    }
+
+  /* ======================= 14-06-2018 =========================== */
+
+  .signuphome.signuphome_billing_three {
+    width: 94%!important;
+    display: table;
+    margin: 0 auto;
+    float: none;
+    padding: 30px!important;
+}
+.input-group-addon {
+    right: 21%!important;
+}
+.input-group-addon {
+    right: 3% !important;
+
+    font-size: 10px !important;
+    
+    width: 100px !important;
+}
+.textbox.input-group input {
+	padding-right: 105px;
+}
+
+
+}
+    
+    
+    
+    @media only screen and (max-width: 767px) {
+        .input-group-addon {
+            position: absolute;
+            right: 1px;
+            bottom: 1px;
+        }
+        .transcript_form_useradmin .checkforassignmnet input[type="checkbox"] {
+            width: auto;
+            margin: 0;
+            margin-right: 10px;
+            float: left;
+        }
+        .transcript_form_useradmin .checkforassignmnet {
+            width: auto;
+            margin-left: 0;
+        }
+        .transcript_form_useradmin .checkforassignmnet label {
+            margin-right: 20px;
+            width: auto;
+            line-height: 44px;
+        }
+        .prsnl_forem.userduperadmin .btn.btn-default {
+            margin-left: 0;
+        }
+        .prsnl_forem input[type="radio"]
+        {
+            width: auto
+        }
+        .prsnl_forem select.timeselect {
+            position: absolute;
+            padding: 5px 10px;
+            border: 0;
+            border-left: 1px solid #999;
+            right: 16px;
+            top: 21px;
+            padding-right: 20px;
+            background: url(../images/drop_dwn_arrow.png) no-repeat right center;
+            background-position: right 5px bottom 16px;
+            background-size: 10px;
+            background-color: #fff !important;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: auto;
+            font-size: 14px;
+        }
+        .medicalprofile h3 {
+            position: inherit;
+            right: 0;
+            top: 8px;
+            margin: 0;
+            color: #e30c2b;
+            width: 100%;
+            float: left;
+            font-size: 18px;
+        }
+        .medicalprofile h4 {
+            width: 65%;
+        }
+        .medicalprofile h5 {
+            width: 65%;
+            margin-top: 10px;
+            font-size: 11px;
+            
+        }
+        .personal_medicasl p {
+            font-size: 13px;
+        }
+        .medicalprofile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 5px;
+            float: left;
+        }
+    
+        .logo {
+            width: 100%;
+            float: left;
+            padding: 10px 0;
+            border-bottom: 1px solid #0e559e;
+            margin-bottom: 0;
+            position: relative;
+            width: 100%;
+            height: 50px;
+            background: #02559e;
+        }
+        .navbar-toggle
+        {
+            margin: 0;
+            margin-right: 10px;
+        }
+      
+        .left-menu {
+            width: 100%;
+            float: left;
+            padding-top: 10px;
+        }
+        .sidebar {
+            width: 100% !important;
+            position: relative;
+            float: left;
+            overflow: hidden;
+            height: auto;
+        }
+        .header_logo img {
+            width: 80px;
+        }
+        .header_logo {
+            height: 21px;
+            bottom: inherit;
+            left: 140px;
+            position: absolute;
+            width: auto;
+            top: 15px;
+        }
+        .leftnavbar {
+            width: 100%;
+            position: relative;
+            left: 0;
+            background: #115eae;
+            top: 0;
+            height: 100%;
+            float: left;
+            padding: 10px 0;
+        }
+        .bottomnavbar {
+            position: relative;
+            left: 0;
+            width: auto;
+            float: left;
+            bottom: 0;
+        }
+        .left-menu ul {
+            width: 100%;
+            float: left;
+            padding: 0;
+            padding-left: 0;
+            margin: 0;
+        }
+        .left-menu ul li a {
+            width: 100%;
+            float: left;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 12px;
+            font-size: 15px;
+            line-height: 15px;
+            transition: .3s ease;
+        }
+        .left-menu ul li a img {
+            float: left;
+            margin-right: 20px;
+        }
+        .enrollmnt_top input {
+            width: 100%;
+            margin-bottom: 0
+        }
+        .prsnl_forem h4 {
+            width: 100%;
+            float: left;
+            margin-bottom: 10px;
+            color: #0e559e;
+        }
+        .prsnl_forem {
+            width: 100%;
+            float: left;
+            margin: 20px 0;
+        }
+        .prsnl_forem a, .prsnl_forem a:hover {
+            margin-left: 25px;
+        }
+        .prsnl_forem .btn.btn-default, .prsnl_forem .btn.btn-primary {
+            width: 120px;
+          
+        }
+        .enrollmnt {
+            width: 100%;
+            float: left;
+            background: #ebebeb;
+            padding: 10px 0;
+            padding-left: 0;
+            padding-top: 0;
+        }
+        .enrollmnt_top h2 {
+            float: left;
+            margin-top: 15px;
+            color: #0e559e;
+            margin-bottom: 10px;
+            width: 100%;
+            font-size: 26px;
+        }
+        .transcript_form label {
+            width: 100%;
+            float: left;
+            color: #666;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 1px;
+            color: #000;
+        }
+        .transcript_form input {
+            width: 100%;
+            float: right;
+            border: 1px solid #999;
+            background: #eee;
+            height: 45px;
+            line-height: 35px;
+            padding: 5px 10px;
+            font-size: 15px;
+            color: #000;
+            margin-bottom: 15px;
+        }
+        .templates_section {
+            width: 100%;
+            float: left;
+            padding: 20px 5px;
+            background: #ebebeb;
+            margin-bottom: 20px;
+        }
+        .template_inner .template_bheadrr label {
+            float: left;
+            width: 100%;
+            line-height: 35px;
+            color: #fff;
+            font-weight: 500;
+        }
+        .template_inner .template_bheadrr select {
+            width: 100%;
+        }
+        .enrollmnt_top .btn.btn-default, .enrollmnt_top .btn.btn-primary {
+            width: 86px;
+            font-size: 12px;
+            margin-top: 0;
+        }
+       
+        .searchdiv {
+            width: 300px;
+        }
+        .logo img {
+            width: 115px;
+            display: block;
+            margin: 0 auto 0 10px;
+            float: left;
+        }
+        .navbar-toggle .icon-bar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            border-radius: 1px;
+            background: #fff;
+        }
+        .bottomnavbar {
+            position: relative;
+            left: 0;
+            width: 80%;
+            float: left;
+        }
+        .leftnavbar a {
+            float: left;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        .leftnavbar a img {
+            width: 22px;
+            height: 22px;
+            display: block;
+            margin: 4px auto 0 auto !important;
+        }
+        .leftnavbar a.srchicon img {
+            width: 22px;
+            height: 22px;
+            margin-top: 0;
+        }
+        .bottomnavbar a 
+        {
+            width: 25%;
+        }
+        a.srchicon
+        {
+            width: 20%
+        }
+        .prsnl_forem .table-responsive table thead tr th
+        {
+            font-size: 14px !important;
+        }
+        .prsnl_forem  .table-responsive table tbody tr td
+        {
+            font-size: 12px  !important;
+        }
+        .prsnl_forem label {
+            width: 100%;
+            float: left;
+            color: #666;
+            font-weight: 300;
+            line-height: 16px !important;
+            font-size: 13px !important;
+        }
+        .prsnl_forem input {
+            width: 100%;
+            float: left;
+            color: #000;
+            font-weight: 500;
+            border: 1px solid #333;
+            background: #fff;
+            padding: 8px 10px !important;
+            margin-bottom: 15px !important;
+            font-size: 13px !important;
+        }
+        .modal_form input.upload {
+            width: 64%;
+        }
+        label.containersss {
+            font-size: 15px;
+            width: 29%;
+        }
+
+
+        .innermodal {
+            width: 300px;
+            top: 10px;
+        }
+        .innermodal .innerflow {
+            padding: 15px 0;
+        }
+        .modal_form.modal_form_fundmodal .medicalprofile {
+            margin: 0 0;
+            margin-bottom: 10px;
+        }
+        .modal_form.modal_form_fundmodal .medicalprofile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+            float: none;
+            display: block;
+            margin: auto;
+            margin-bottom: 20px
+        }
+        .modal_form label.btn.btn-primary {
+            color: #fff;
+            width: 70px;
+            float: right;
+            padding: 11px 0;
+            border: 0;
+            background: #0e559e;
+            font-size: 12px;
+        }
+        .modal_form_fundmodal h3 {
+            float: left;
+            color: #115eae;
+            width: 68%;
+            font-size: 30px;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .modal_form_fundmodal h5 {
+            float: left;
+            color: #000;
+            width: 34%;
+            font-size: 12px;
+            margin: 0;
+            margin-bottom: 10px;
+            padding-right: 10px;
+        }
+        .modal_form.modal_form_fundmodal .medicalprofile h4 {
+            width: 100%;
+        }
+        .modal_form.modal_form_fundmodal .medicalprofile h5 {
+            width: 100%;
+        }
+        .modal_form.modal_form_fundmodal .personal_medicasl p {
+            font-size: 12px;
+        }
+
+        .modal_form_fundmodal img {
+            width: 150px;
+            height: 150px;
+            float: none;
+            margin-right: 15px;
+            display: block;
+            margin: auto;
+        }
+        .modal_form_fundmodal h3 {
+            float: left;
+            color: #115eae;
+            width: 100%;
+            font-size: 22px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .modal_form_fundmodal h5 {
+            float: left;
+            color: #000;
+            width: 100%;
+            font-size: 12px;
+            margin: 0;
+            margin-bottom: 5px;
+            padding-right: 0;
+        }
+        .modal_form select.timeselect {
+            padding: 7px 10px;
+        }
+
+
+        .navbar-toggle.collapsed {
+            background: #115eae;
+            border: 0;
+            margin-top: 10px;
+        }
+        .navbar-toggle {
+            background: #115eae;
+            border: 0;
+            margin-top: 10px;
+        }
+        .nav.navbar-nav.navbar-right li {
+            margin-right: 10px;
+            width: 100%;
+            margin: 0;
+            float: left;
+        }
+        .nav.navbar-nav.navbar-right .btn.btn-primary {
+            margin-left: 0;
+            float: left;
+        }
+        .navbar_landing .navbar.navbar-inverse input {
+            float: left;
+            width: 100%;
+            margin-right: 0;
+        }
+        .banner-section {
+            padding-top: 10px;
+        }
+        .left-banner h1 {
+            font-size: 22px;
+        }
+        .left-banner h3 {
+            margin-bottom: 20px;
+            font-size: 11px;
+        }
+        .nav.navbar-nav.navbar-right {
+            margin: 0;
+        }
+        .signuphome h4 {
+            font-size: 15px;
+        }
+
+        .signuphome {
+            padding: 20px 10px;
+        }
+        .signuphome    .textbox.textbox_2 
+        {
+            width: 100%;
+        }
+        .signuphome .textbox label , .signuphome .textbox.textbox_2 label , .signuphome .textbox.textbox_2.textbox_3 label  {
+        
+            line-height: 20px;
+            font-size: 13px;
+            padding-left: 0;
+        }
+        .signuphome .textbox input , .signuphome .textbox.textbox_2 input , .signuphome .textbox.textbox_2.textbox_3 input  {
+        
+            font-size: 13px;
+            width: 100% ;
+        }
+        .signuphome .textbox p {
+            width: 90%;
+        }
+        .hometopic h1 {
+            font-size: 22px;
+        }
+        .hometopic h4 {
+            font-size: 15px;
+        }
+        .hometopic h5 {
+            margin: 0;
+            padding: 5px 10px;
+            font-size: 17px;
+            margin-bottom: 40px;
+        }
+        .hometopic span {
+            bottom: 33px;
+        }
+        .hometopic h5 {
+            margin-bottom: 20px;
+        }
+        .informationsection h3 {
+            margin-top: 25px;
+        }
+        .informationsection p {
+            font-size: 11px;
+        }
+        .informationsection .btn.btn-default {
+            padding: 7px 20px;
+            background: #fff;
+            border: 1px solid #000;
+            color: #000;
+            float: left;
+            font-size: 11px;
+            transition: .3s ease;
+        }
+        .pricebox span {
+            margin-bottom: 25px;
+        }
+        .pricebox h1 {
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-size: 30px;
+            margin: 25px 0;
+            color: #000;
+        }
+        .pricebox h5 {
+            width: 100%;
+            float: left;
+            text-align: center;
+            color: #fff;
+            font-size: 13px;
+            margin: 0;
+            margin-bottom: 25px;
+        }
+        .pricebox button.btn.btn.btn-primary {
+            width: 100%;
+            float: left;
+            padding: 12px;
+            background: #115eae;
+            border: 0;
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        .pricebox {
+            margin-bottom: 20px;
+        }
+        .calculate h1 {
+            font-size: 22px;
+        }
+        .calculate h1 span {
+            color: #f1a20b;
+            font-weight: 700;
+            font-size: 22px;
+        }
+        .calculate {
+            padding: 40px 0;
+            margin: 30px 0;
+        }
+        .calculate.blockchaincloud h1 span {
+            font-size: 22px;
+            margin-bottom: 20px;
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .calculate.blockchaincloud p {
+            width: 100%;
+            float: left;
+            font-size: 12px;
+            color: #fff;
+            margin: 0;
+            margin-bottom: 5px;
+            padding: 0 10px;
+        }
+        .pricecalcutn_right h1 {
+            margin-bottom: 18px;
+            font-size: 22px;
+            margin-top: 10px;
+        }
+        .pricecalcutn_right h2 {
+            font-size: 18px;
+        }
+        .tabforlearn ul.nav.nav-pills li a {
+            padding: 10px 20px;
+            background: #fff;
+            border: 0;
+            box-shadow: 2px 2px 10px #cfcaca;
+            color: #115eae;
+            font-size: 11px;
+            transition: .2s ease;
+            float: left;
+        }
+        .tabforlearn_content .tab-content img {
+            width: 65px;
+            height: 65px;
+            float: left;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+        .tabforlearn_content .tab-content p {
+            width: 80%;
+            float: left;
+            margin: 0;
+            color: #333;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        .tabforlearn_content .tab-content .btn.btn-primary {
+            padding: 10px 30px;
+            font-size: 15px;
+            background: #115eae;
+            border: 0;
+            border-radius: 10px;
+            margin-top: 0;
+            transition: .2s ease;
+            margin-bottom: 20px;
+        }
+        .clientlogo {
+            width: 100%;
+            float: left;
+            padding: 10px 0;
+            background: #fff;
+        }
+        .clientlogo img 
+        {
+        width: auto;
+        height: 60px;
+        margin-right: 20px;
+        }
+        .subscibe_innr {
+            padding: 25px 10px;
+            height: 470px;
+        }
+        .subscibe_innr h1 {
+            width: 100%;
+            float: left;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 30px;
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 35px;
+        }
+        .subscibe_innr h1 small {
+            text-transform: inherit;
+            color: #fff;
+            font-size: 14px;
+        }
+        .inputforsubs {
+            width: 100%;
+        
+        }
+        .inputforsubs input {
+            width: 65%;
+            font-size: 12px;
+            color: #fff;
+        }
+        .inputforsubs .btn.btn-default {
+            width: 100px;
+            font-size: 13px;
+        }
+        .subscibe_innr {
+            padding: 25px 10px 35px 10px;
+            height: auto;
+        }
+        .footersection {
+            padding: 25px 0;
+            padding-bottom: 5px;
+        }
+        .footermenu h4 {
+            width: 100%;
+            float: left;
+            margin: 0;
+            margin-bottom: 8px;
+            color: #fff;
+            font-size: 18px;
+        }
+        .footermenu {
+            width: 100%;
+            margin-bottom: 20px;
+            float: left;
+        }
+        .footermenu ul li a
+        {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        .footer-social p {
+            font-size: 13px;
+        }
+        .footer-social a {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            margin-right: 8px;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+        }
+        #myNavbar {
+            background: #fff;
+            padding-bottom: 10px;
+            border: 0;
+        }
+        .product_tabs ul.nav.nav-pills li a h3 {
+            font-size: 20px;
+        }
+        .schoolinfrmtion_inner h1 {
+            font-size: 30px;
+        }
+        .product_tabs ul.nav.nav-pills li {
+            width: 100%;
+            margin: 0;
+            float: left;
+        }
+        .schoolinfrmtion_inner {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .emailconfrm {
+            padding: 30px 0;
+        }
+        .emailconfrm h1 {
+            margin-bottom: 30px;
+            font-size: 22px;
+        }
+        .emailconfrm h4 
+        {
+            font-size: 16px;
+        }
+        .emailconfrm p {
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-size: 13px;
+            padding: 0 10px;
+        }
+        .commentsection img {
+            width: 70px;
+            height: 70px;
+            top: 0;
+            float: left;
+            left: 0;
+            display: block;
+            position: inherit;
+        }
+        .commentsection_inner {
+            width: 100%;
+            float: left;
+            padding-left: 0;
+        }
+        .rexentdicuess h3
+        {
+            margin: 0
+        }
+        .commentsection_inner h5 {
+            width: 100%;
+            float: left;
+            margin: 0;
+            color: #000;
+            margin-bottom: 5px;
+            font-size: 11px;
+            text-align: right;
+            margin-top: -35px;
+        }
+        .commentsection_inner p {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+        .rexentdicuess {
+            padding: 20px 10px;
+        }
+        .commentsection_inner h4 {
+            font-size: 18px;
+        }
+        .commentsection {
+            position: relative;
+            padding: 15px 0;
+        }
+        .stepsforcourses a {
+            float: left;
+            margin-right: 0;
+            text-decoration: none;
+            font-size: 16px;
+            color: #000;
+            border-bottom: 1px solid #ebebeb;
+            padding-bottom: 5px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .commentsection_inner iframe {
+            width: 100%;
+            height: 200px;
+            display: block;
+            margin-bottom: 20px;
+        }
+        #myNavbar {
+            background: #115eae;
+            border: 0;
+        }
+        .cheathead {
+            margin-top: 20px;
+        }
+        .cheathead a
+        {
+            width: 25%;
+            text-align: center;
+            border-bottom: 1px solid #2277cf;;
+            padding: 0;
+        }
+        .cheathead input {
+            width: 96%;
+            float: left;
+            padding: 5px 10px;
+            color: #000;
+            margin-right: 5px;
+            margin-top: 5px;
+            margin: 5px 2%;
+        }
+        .inboxcmessage_top h4 {
+            float: left;
+            font-weight: 700;
+            color: #000;
+            margin-top: 0;
+            display: block;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 16px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            padding-left: 50px;
+        }
+        .inboxcmessage_top p {
+            width: 100%;
+            font-size: 11px;
+        }
+        .cheathead .btn.btn-primary {
+            background: #16adde;
+            color: #fff;
+            line-height: 40px;
+            padding: 0 20px;
+            border: 0;
+            margin-right: 0;
+            float: right;
+            margin-top: 5px;
+            width: 96%;
+            margin: 5px 2% 0 5px;
+        }
+        .replysection {
+            float: right;
+            width: 100%;
+            text-align: center;
+        }
+        .replysection a {
+            float: none;
+            color: #666;
+            padding: 0 10px;
+            line-height: 44px;
+            text-decoration: none;
+            transition: .2s ease;
+            display: inline-block;
+        }
+        .inboxcmessage_middle h4 {
+            margin-top: 10px;
+        }
+        .inputfield {
+            width: 70%;
+            float: left;
+            position: relative;
+            border: 1px solid #999;
+        }
+        .inboxcmessage_bottom {
+            width: 100%;
+            float: left;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+            margin-bottom: 40px;
+        }
+        a.chat-option {
+            bottom: 5px;
+            right: 5px;
+        }
+        .chat_inbox {
+            max-height: 300px;
+            overflow: auto;
+        }
+        .chooescolor p {
+            float: left;
+            font-size: 15px;
+            margin: 0;
+            margin-right: 5px;
+        }
+        .chooescolor a {
+            margin-left: 5px !important;
+        }
+        .chooescolor {
+            margin-bottom: 10px;
+        }
+        /* .teachercourcemodal .innermodal.modal-lg
+        {
+            width: 300px;
+        } */
+        .view_picture h4 {
+            float: left;
+            color: #fff;
+            font-size: 16px;
+        }
+        .grngcolor
+    {
+        width: 100%;
+        float: right;
+    }
+
+    .stepsmodal li.modalstep_1 {
+        width: 100%;
+        background: transparent !important;
+    }
+    .leftmodal {
+        width: 100%;
+    }
+    .for-height-1 {
+        display: table-cell;
+        vertical-align: top;
+        width: 100%;
+        display: inherit;
+    }
+    label.pollsurvey {
+        width: 100%;
+    }
+    .enrollment_steps ul li {
+        width: 46%;
+        margin-right: 5px;
+    }
+    .enrollment_steps ul li i {
+        position: absolute;
+        right: 0px;
+        top: 13px;
+        font-size: 12px;
+        color: #666;
+    }
+    label.containerss {
+        width: auto !important;
+    }
+    .forbulk {
+        padding: 0 20px;
+    }
+    .profile_page_enroll img {
+        margin-bottom: 10px;
+    }
+    .bottomnavbar a, .bottomnavbar .dropdown {
+        position: relative;
+        padding:  0;
+        width: 25%;
+    }
+    .bottomnavbar a {
+        width: 100%;
+    }
+    .notification.dropdown-menu {
+        width: 250px;
+        left: 0;
+        right: inherit;
+        max-height: 270px;
+        overflow-y: auto;
+        bottom: inherit;
+        top: inherit;
+        padding: 0;
+        z-index: 9999;
+        position: relative;
+        right: inherit;
+        top: 10px;
+        margin-bottom: 10px;
+    }
+    .bottomnavbar a:focus
+    {
+        background: transparent
+    }
+    .dropdown-menu.colorcmbntn {
+        left: 0;
+        right: inherit;
+        bottom: inherit;
+        top: inherit;
+        width: 150px;
+        min-width: auto;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 8px;
+        top: 10px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .dropdown-menu.menudropdown {
+        top: 10px;
+        bottom: inherit;
+        left: inherit;
+        position: relative;
+        width: auto;
+        right: 0;
+        min-width: auto;
+        float: right;
+        margin-bottom: 10px;
+    }
+    .rpdctprce h1 {
+        position: inherit;
+        right: 0;
+        top: 0;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .rpdctprce p {
+        padding-right: 0;
+        text-align: center
+    }
+    .rpdctprce h4 
+    {
+        text-align: center
+    }
+    .rpdctprce h5 {
+        padding-right: 0;
+        text-align: center;
+    }
+    label.containerss {
+        color: #115eae;
+        margin-top: 5px !important
+    }
+    .prsnl_forem.product_form_form h1 {
+        width: 100%;
+        float: left;
+        font-size: 24px;
+        color: #000;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .product_form {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .priceingstep ul li {
+        background: transparent;
+        padding: 0;
+    }
+    .priceingstep ul li a p {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #000;
+        line-height: 25px;
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .priceingstep ul li a {
+        width: 100%;
+        float: left;
+        text-decoration: none;
+        line-height: 25px;
+        color: #000;
+        font-size: 10px;
+    }
+    .priceingstep {
+        margin: 25px 0;
+    }
+  .navbar_landing  .nav.navbar-nav.navbar-right li a {
+        color: #fff;
+        font-size: 16px;
+        border-bottom: 1px solid #e8ebee;
+        transition: .2s ease;
+        padding: 15px 5px;
+    }
+    .navbar_landing .navbar.navbar-inverse input {
+        float: right;
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 15px;
+        background: #fff;
+        border-radius: 0;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .prsnl_forem.dashboardforsis2 img {
+        width: 150px;
+        display: block;
+        float: none;
+        margin:0  auto 20px auto
+    }
+    .prsnl_forem.prsnl_forem_attncedahs.downdashbaord .btn.btn-primary {
+        margin-bottom: 0;
+    }
+    .prsnl_forem.dashboardforsis {
+        padding-right: 0;
+        border-right: 0;
+    }
+    .prsnl_forem.downdashbaord {
+        padding-right: 0;
+        border-right: 0;
+    }
+
+    .prsnl_forem.dashboardforsis .cousrescdtial p {
+        width: 125px;
+        border-right: 1px solid #999;
+        margin-right: 10px;
+    }
+    .prsnl_forem.dashboardforsis .cousrescdtial span.complete {
+        margin-right: 10px;
+        margin-top: -10px;
+        float: left;
+    }
+    .prsnl_forem.dashboardforsis .cousrescdtial p {
+        width: 105px;
+        border-right: 1px solid #999;
+        margin-right: 10px;
+        overflow: hidden;
+        padding-right: 5px;
+        font-size: 10px;
+    }
+    .prsnl_forem.dashboardforsis .cousrescdtial span.complete {
+        margin-right: 10px;
+        margin-top: -7px;
+        float: left;
+        font-size: 10px;
+    }
+    .prsnl_forem.dashboardforsis .cousrescdtial span.incomplete {
+        margin-top: -8px;
+        font-size: 10px;
+        float: left;
+    }
+    .topdashbaord h3 small {
+        width: 100%;
+        font-size: 10px;
+        float: left;
+        text-align: center;
+        color: #000;
+    }
+    .topdashbaord h3 {
+        font-size: 13px;
+    }
+    .textbox.textbox_2.textbox_3 {
+        width: 100% !important;
+        float: left;
+    }
+    .dashboardforsis2.downdashbaord label {
+        width: 100%;
+        margin-right: 15px;
+        line-height: 32px;
+    }
+    .dashboardforsis2.downdashbaord .btn.btn-primary {
+        width: 100px;
+    }
+    .admin_login_form
+    {
+        width: 300px !important;
+    }
+
+  /* ================ 14-06-2018 ================ */
+
+  .signuphome.signuphome_billing_three { padding:15px 5px!important; width:100%!important; }
+  .signuphome.signuphome_billing_three .input-group-addon { top: inherit; bottom:1px;
+  height: 32px; }
+  .priceingstep ul li a img { display: none; }
+  .priceingstep ul li { margin: 0 3px; }
+
+
+  .input-group-addon {
+    right: 2px !important;
+    font-size: 10px !important;
+    width: 100px !important;
+    top: 26px !important;
+}
+.textbox.input-group input {
+	padding-right: 105px;
+}
+
+
+    }
+
+    
+    @media only screen and (max-width: 479px) {
+    
+       
+    .tabforlearn_content .tab-content p {
+        width:75%;
+        float: left;
+        margin: 0;
+        color: #333;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+
+    /* ================ 14-06-2018 ================ */
+
+    .signuphome.signuphome_billing_three { padding:15px 5px!important; width:100%!important; }
+    .signuphome.signuphome_billing_three .input-group-addon { top: inherit; bottom:1px;
+    height: 32px; }
+    .priceingstep ul li a img { display: none; }
+    .priceingstep ul li { margin: 0 3px; }
+
+
+    }
