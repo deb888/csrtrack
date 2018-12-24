@@ -5,10 +5,13 @@ $(function () {
       placement: 'top',
       trigger: 'hover'
     });
+
+
+    // $("#myNavbar a").click(function(){
+    //   let bodyClasses = document.body.classList;
+    //   bodyClasses.contains('sidebar-opened') ? document.body.classList.remove('sidebar-opened') : null;
+    // });
+
+
   });
-
-
-
-
-
-})
+});

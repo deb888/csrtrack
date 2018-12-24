@@ -1,0 +1,48 @@
+
+.new_account-details{
+  width:600px;
+}
+
+@media only screen and (max-width:1199px) {
+    .enrollment_steps ul li{
+        display: block;
+        width: auto;
+    }
+}
+@media only screen and (max-width:991px) {
+    .new_account-details{
+        width:100%;
+    }
+    .profile_image img { width:165px !important; height:165px!important;}
+    .announcement-list .announcement-item {
+        flex-direction: column;
+    }
+    .announcement-list .announcement-item .item-icon {
+        width: auto;
+    }
+    .announcement-list .announcement-item .left-box{
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    .transcript_form {
+        margin: 20px 0 10px 0 !important;
+    }
+    .new_account-details {
+        width: 80%;
+    }
+    .chooescolor{
+        width: 100%;
+        margin-top: 15px;
+    }
+   
+}
+@media only screen and (max-width: 568px) {
+    .search-group .form-control{
+        width: 242px;
+    }
+    .assignBtn{
+        padding: 5px !important;
+    }
+}

@@ -43,7 +43,7 @@ module.exports = function(app, passport, SERVER_SECRET) {
         req.token = jwt.sign({
           id: req.user.id,
         }, SERVER_SECRET, {
-          expiresIn: 1200
+          expiresIn: "10h"
         });
 
         // lastly respond with json
