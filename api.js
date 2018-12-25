@@ -237,7 +237,25 @@ module.exports = (function() {
 			});
 		});
 	});
-
+	router.get('/:table/:colnm/:val',authenticate ,function(req, res) {
+		sequelize.query("SELECT * FROM `"+TABLE_PREFIX+req.params.table+"` WHERE `"+ req.params.colnm +"` = " + mysql_clean(req.params.val), { type: sequelize.QueryTypes.SELECT})
+		.then(function(rows) {
+			if(!rows.length) {
+				res.status(404);
+				res.json({
+					"success" : 0,
+					"data" : "No rows found"
+				});
+			}else{
+				res.status(200);
+				res.json({
+					"success" : 1,
+					"data" : rows
+				});
+			}
+			
+	});
+});
 	return router;
 
 })();

@@ -58,21 +58,34 @@ module.exports = function(app, passport, SERVER_SECRET) {
 // =============================================================================
 
 // ==================== Allows users to create accounts ========================
+// {
+//   successRedirect : '/signup/successjson',
+//   failureRedirect : '/signup/failurejson',
+//   failureFlash : true
+//   }
+  // app.post('/signup', passport.authenticate('local-signup',function(err, user, info) { ));
+  // // return messages for signup users
+  // app.get('/signup/successjson', function(req, res) {
+  //   console.log(req.user);
+    
+  //   res.status(200).json({ message: 'Successfully created user' });
+  // });
 
-  app.post('/signup', passport.authenticate('local-signup', {
-    successRedirect : '/signup/successjson',
-    failureRedirect : '/signup/failurejson',
-    failureFlash : true
-    }));
-  // return messages for signup users
-  app.get('/signup/successjson', function(req, res) {
-    res.status(200).json({ message: 'Successfully created user' });
-  });
+  // app.get('/signup/failurejson', function(req, res) {
+  //   res.status(401).json({ message: 'This user already exists' });
+  // });
+app.post('/signup',function(req, res, next){
+  passport.authenticate('local-signup',function(err, user, info) {
 
-  app.get('/signup/failurejson', function(req, res) {
-    res.status(401).json({ message: 'This user already exists' });
-  });
-
+    if (err) { return next(err); }
+    // stop if it fails
+    if (!user) { return res.status(401).json({ message: 'Invalid Username of Password' }); }
+    return res.status(200).json({
+      user: user,
+      message: "Signup successfull"
+    });
+  })(req, res, next);
+});
 // =============================================================================
 
 // ================= Protected APIs for authenticated Users ====================
