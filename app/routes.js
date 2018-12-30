@@ -13,6 +13,26 @@ module.exports = function(app, passport, SERVER_SECRET) {
   });
 
 // =========== authenticate login info and generate access token ===============
+/**
+ * @swagger
+ * /login:
+ *   post:
+ *     tags:
+ *       - Login
+ *     description: Creates a new Login
+ *     produces:
+ *       - application/json
+ *     parameters:
+ *       - username: string
+ *         password: string
+ *         in: body
+ *         required: true
+ *         schema:
+ *           $ref: '#/definitions/Login'
+ *     responses:
+ *       200:
+ *         description: Successfully login
+ */
 
   app.post('/login', function(req, res, next) {
   passport.authenticate('local-login', function(err, user, info) {
@@ -34,7 +54,8 @@ module.exports = function(app, passport, SERVER_SECRET) {
           if(err) {return next(err);}
           // store the updated information in req.user again
           req.user = {
-            id: user.username
+            id: user.username,
+            role:user.role
           };
         });
 
@@ -77,9 +98,9 @@ module.exports = function(app, passport, SERVER_SECRET) {
 app.post('/signup',function(req, res, next){
   passport.authenticate('local-signup',function(err, user, info) {
 
-    if (err) { return next(err); }
+    if (err) { return res.status(403).json({ message: 'username Already Taken' }); }
     // stop if it fails
-    if (!user) { return res.status(401).json({ message: 'Invalid Username of Password' }); }
+    if (!user) { return res.status(403).json({ message: 'Invalid Username of Password' }); }
     return res.status(200).json({
       user: user,
       message: "Signup successfull"
